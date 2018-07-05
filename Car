@@ -7,15 +7,18 @@
 
 public class Car{
     int wheels = 4;
-    int doors = 4;
     String color = "white";
-    String name;
+    String type;
     int speed;
     int seats = 4;
     
     public String paint (string car_color, String car_name){
         color = car_color;
-        name = car_name;
-        return color, name;
+        return color;
+    }
+    
+    pulic int speed(int car_speed){
+        speed = car_speed;
+        return speed;
     }
 }

@@ -1,9 +1,4 @@
-// different car types pasenger car, racing car etc.
-// default passenger car has 4 seats
-// all cars come with whie color
-// give color funcion to color car
-// basic attributes and methods which Car class could have
-// paint method is mandetory
+// Super class Car
 
 public class Car{
     int wheels = 4;

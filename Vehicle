@@ -1,0 +1,21 @@
+// different car types pasenger car, racing car etc.
+// default passenger car has 4 seats
+// all cars come with whie color
+// give color funcion to color car
+// basic attributes and methods which Car class could have
+// paint method is mandetory
+
+public class Vehicle{
+    int wheels = 4;
+    int doors = 4;
+    String color = "white";
+    String name;
+    int speed;
+    int seats = 4;
+    
+    public String paint (string car_color, String car_name){
+        color = car_color;
+        name = car_name;
+        return color, name;
+    }
+}

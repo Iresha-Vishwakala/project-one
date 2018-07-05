@@ -5,7 +5,7 @@
 // basic attributes and methods which Car class could have
 // paint method is mandetory
 
-public class Vehicle{
+public class Car{
     int wheels = 4;
     int doors = 4;
     String color = "white";

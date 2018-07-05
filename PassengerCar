@@ -1,6 +1,6 @@
 public class PassengerCar Exends Car{
     
     public static void main (String []args){
-    
+        Car toyotaPassengerCar = new Car();
     }
 }

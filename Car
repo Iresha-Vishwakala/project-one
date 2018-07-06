@@ -1,30 +1,22 @@
-// different car types paaasenger car, racing car etc.
-// default passenger car has 4 seats
-// all cars come with whie color
-// give color funcion to color car
-// basic attributes and methods which Car class could have
-// paint method is mandetory
+// Car.java file
+class Car {
+	String color = "white";
+	int seat = 4;
+	int speed;
+	int weel = 4;
 
-public class Car{
-    static String car_color = "white";
-    static int max_speed;
-    static String car_name;
-    
-     public static void main(String []args){
-        Car toyota_passenger = new Car();
-        Car honda_racing = new Car();
-        
-        toyota_passenger.paint("Toyota", "blue", 80);
-        honda_racing.paint("Honda", "red", 120);
-     }
-     
-    public static void paint(String name, String color, int speed){
-        car_name = name;
-        car_color = color;
-        max_speed = speed;
-        System.out.println(car_name+ ": "+ car_color+ " "+  max_speed);
-    } 
+	Car() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	void paint(String car_color) {
+		color = car_color;
+		System.out.println("This car is: "+ color);
+	}
+	
+	void speed(int car_speed) {
+		speed = car_speed;
+		System.out.println("Car speed is: "+ speed);
+	}
+	
 }
-
-
-

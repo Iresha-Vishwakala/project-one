@@ -1,19 +1,22 @@
-// Super class Car
+// Car.java file
+class Car {
+	String color = "white";
+	int seat = 4;
+	int speed;
+	int weel = 4;
 
-public class Car{
-    int wheels = 4;
-    String color = "white";
-    String type;
-    int speed;
-    int seats = 4;
-    
-    public String paint (string car_color, String car_name){
-        color = car_color;
-        return color;
-    }
-    
-    pulic int speed(int car_speed){
-        speed = car_speed;
-        return speed;
-    }
+	Car() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	void paint(String car_color) {
+		color = car_color;
+		System.out.println("This car is: "+ color);
+	}
+	
+	void speed(int car_speed) {
+		speed = car_speed;
+		System.out.println("Car speed is: "+ speed);
+	}
+	
 }

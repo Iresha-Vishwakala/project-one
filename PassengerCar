@@ -1,6 +1,8 @@
-public class PassengerCar Exends Car{
-    
-    public static void main (String []args){
-        Car toyotaPassengerCar = new Car();
-    }
+// PassengerCar.java file
+class PassengerCar extends Car {
+
+	PassengerCar() {
+		// TODO Auto-generated constructor stub
+	}
+
 }
